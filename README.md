@@ -1,6 +1,32 @@
-# InventoryApp
+# **Gestión de Inventario Básico - Aplicación Angular**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+Una aplicación web desarrollada en Angular para gestionar un inventario básico. La aplicación permite a los usuarios realizar operaciones CRUD sobre productos, entradas, salidas y estados de los productos.
+
+---
+
+## **Características**
+- **Módulo de productos**: Gestión completa de los productos en el inventario.
+- **Módulo de entradas**: Registro de entradas de productos al inventario.
+- **Módulo de salidas**: Registro de salidas de productos del inventario.
+- **Módulo de estados**: Gestión de estados asociados a los productos.
+- Conexión con una API REST para gestionar datos de forma persistente.
+
+---
+
+## **Requisitos**
+- **Node.js** (v16 o superior)
+- **Angular CLI** (v17 o superior)
+- Servidor para la API REST (puedes usar [esta API](https://github.com/johanS123/inventary-api) como backend).
+
+---
+
+## **Configuración del proyecto**
+
+### 1. **Clonar el repositorio**
+```bash
+git clone https://github.com/johanS123/inventory-app.git
+cd inventary
+```
 
 ## Development server
 
